@@ -1,0 +1,205 @@
+*{
+    margin: 10px 5px;
+    padding: 5px 5px;
+   
+}
+header div {
+ display: flex;  
+ margin: -100px 500px; 
+}
+.hamburger{
+    display: none;
+    cursor: pointer; 
+    margin-top: -125px;
+}
+#ham1{
+    padding:px 0 0 0 ;
+    margin: 5px 500px;
+}
+.bar{
+    display: block;
+    width: 20px;
+    height:1px;
+    margin: 5px auto ;
+    padding: 5px;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: black;
+}
+.listitems a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.listitems a:hover{
+    color: red;
+}
+a .btn,
+.btn
+{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 128, 0.811);
+    border: 2px solid  rgba(39, 39, 140, 0.9) ;
+    height: 60px;
+    width: 100px;
+    margin: -10px -10px 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+font-size: 17px;
+color: #fff;
+}
+
+a.btn,
+.btn:hover{
+color: white;
+background-color:black;
+
+}
+.container{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first-ctn{
+    display: grid;
+}
+.obj1 ,.lme{
+    color: #fff;
+    border: 2px solid rgb(85, 85, 143);
+    background-color: rgb(29, 29, 182);
+    border-radius: 40px;
+height: 40px;
+width: 500px;
+text-align: center;
+padding: -10px 0 ;
+font-size: 12px;
+}
+.lme{
+   border: none;
+}
+
+.obj1 a:hover{
+    color: black;
+    background-color: white;
+}
+.objective2{
+    font-size: 45px;
+    margin-top: -20px;
+color:  rgba(0, 0, 0, 0.822);    
+}
+.objective3{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.66);
+    margin-top: -35px;
+}
+.objective4{
+    margin-top: -25px;
+    margin-left: 20px;
+}
+.objective4 input{
+border: 2px solid black;
+height: 35px;
+width: 260px;
+border-radius: 5px;
+}
+.plh::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.542);
+}
+
+#btn-editor{
+    margin-left: 5px;
+}
+.companies{
+    display: flex;
+    
+}
+.section-compaines{
+    margin: -90px 0;
+}
+
+
+
+
+
+/* TABLET */
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    *{
+        margin: 15px 10px;
+        padding:10px 10px;
+    }
+    header div{
+    display: flex;
+    margin: -143px 50px 0 1px;
+   }
+.hamburger{
+    display: block;
+}
+.hamburger.active.bar:nth-child(2){
+opacity: 0;
+}
+.hamburger.active.bar:nth-child(2){
+    transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active.bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        }
+        .listitems{
+            position: fixed;
+            left: 100%;
+            top:70px;
+            gap: 0;
+            flex-direction: column;
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+            margin: 16px 0;
+        }
+        .listitems.active{
+            left: 0;
+        }
+        .obj1{
+            margin: -90px 0;
+            padding: 9px 0  ;
+            align-items: center;  
+            width: 450px;
+              
+    }
+
+ .lme {
+    padding:-80px 0;
+}
+.objective2{
+    font-size: 30px;
+    margin-top: -20px;
+    
+}
+.objective3{
+    font-size: 19px;
+    margin-top: -70px;
+    padding: 7px;  
+}
+.objective4{
+    margin-top: -50px;
+}
+#btn-editor{
+    padding: 3px 0;
+    margin: 3px -5px;
+}
+.companies{
+margin-left: 20px;
+}
+.second-ctn{
+    display: none;
+}
+       }
+
+
+
+
+
+
+
+ 
